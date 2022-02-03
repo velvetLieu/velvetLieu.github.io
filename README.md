@@ -1,4 +1,4 @@
-# velvetLieu.github.io
+# velvetLieu.github.io (WIP)
 Personal website for Jonathan Lieu
 
 
