@@ -30,7 +30,7 @@
 
 /* Landing Page*/
 #landing-top{
-    height: 40vh;
+    height: 55vh;
     min-height: 400px;
     width: 100%;
     margin:auto;
@@ -38,4 +38,17 @@
 
 .container{
     width: 100%;
+}
+
+.landing-block{
+    max-width: 550px;
+}
+
+.landing-block h1{
+    font-weight: 700;
+}
+
+.landing-block p{
+    font-size: 20px;
+    font-weight: 400;
 }
