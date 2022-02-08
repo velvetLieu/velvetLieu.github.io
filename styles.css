@@ -70,3 +70,16 @@
     background-color: #eee;
     cursor: pointer;
 }
+
+.project-button{
+    top:50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    transform: translateY(-50%);
+    display:block;
+}
+
+.image{
+    background-color: #eee;
+}
