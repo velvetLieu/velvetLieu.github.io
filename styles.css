@@ -4,6 +4,11 @@
     font-weight: 700;
 }
 
+.navbar .nav-link{
+    padding-left: 20px;
+}
+
+
 .navbar-brand {
     font-size: 1.75em;
 }
