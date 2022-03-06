@@ -1,4 +1,12 @@
 # velvetLieu.github.io
-Source code for my personal website that I developed using HTML, CSS, and Bootstrap to showcase current and completed projects. This responsive and static website is hosted by Github Pages.
+Source code for my personal website that I developed to showcase current and completed projects. Fully responsive and simple static website 
+that includes my LinkedIn, GitHub, and Resume.
 
 http://www.jonathanlieu.com/
+
+## Built Using 🛠️
+* HTML
+* CSS
+* Bootstrap 5
+* GitHub Pages for hosting
+* Google Domains for domain
