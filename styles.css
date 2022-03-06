@@ -60,6 +60,10 @@
 
 /*Projects Section*/
 
+#projects-section{
+    margin-bottom: 100px;
+}
+
 .project-title{
     font-weight:700;
 }
@@ -82,4 +86,8 @@
 
 .image{
     background-color: #eee;
+}
+
+.badge {
+    font-size: 13px;
 }
