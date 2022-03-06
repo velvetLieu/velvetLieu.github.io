@@ -1,7 +1,7 @@
 /* Nav Bar */
 .navbar {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .navbar .nav-link{
@@ -58,6 +58,18 @@
     font-weight: 400;
 }
 
+.email-link{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    margin-top: 5px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #000;
+    text-decoration: none;
+    transition: .2s ease-out;
+    -webkit-transition: .2s ease-out;
+}
+
 /*Projects Section*/
 
 #projects-section{
@@ -65,6 +77,7 @@
 }
 
 .project-title{
+    font-family: 'Lato', sans-serif;
     font-weight:700;
 }
 
