@@ -70,6 +70,15 @@
     -webkit-transition: .2s ease-out;
 }
 
+@keyframes pastelLoop{
+    0% {color: #fea3aa;}
+    18% {color: #f8b88b;}
+    36% {color: #faf884;}
+    54% {color: #baed91;}
+    72% {color: #b2cefe;}
+    90% {color: #f2a2e8;}
+}
+
 /*Projects Section*/
 
 #projects-section{
