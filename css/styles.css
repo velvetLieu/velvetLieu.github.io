@@ -47,6 +47,7 @@
 
 .landing-block{
     max-width: 550px;
+    animation: fadeInLanding linear 1000ms;
 }
 
 .landing-block h1{
@@ -70,19 +71,12 @@
     -webkit-transition: .2s ease-out;
 }
 
-@keyframes pastelLoop{
-    0% {color: #fea3aa;}
-    18% {color: #f8b88b;}
-    36% {color: #faf884;}
-    54% {color: #baed91;}
-    72% {color: #b2cefe;}
-    90% {color: #f2a2e8;}
-}
 
 /*Projects Section*/
 
 #projects-section{
     margin-bottom: 100px;
+    animation: fadeInProjects linear 1000ms;
 }
 
 .project-title{
@@ -92,4 +86,28 @@
 
 .badge {
     font-size: 15px;
+}
+
+/*CSS animations*/
+
+
+@keyframes pastelLoop{
+    0% {color: #fea3aa;}
+    18% {color: #f8b88b;}
+    36% {color: #faf884;}
+    54% {color: #baed91;}
+    72% {color: #b2cefe;}
+    90% {color: #f2a2e8;}
+}
+
+@keyframes fadeInLanding{
+    0% { opacity: 0; transform: translateY(-50%); }
+    75% { opacity: .5; }
+    100% {opacity: 1; transform: translateY(0%); }
+}
+
+@keyframes fadeInProjects{
+    0% { opacity: 0;}
+    75% { opacity: .5; }
+    100% {opacity: 1; }
 }
