@@ -8,9 +8,16 @@
     padding-left: 20px;
 }
 
-
 .navbar-brand {
     font-size: 1.75em;
+}
+
+.navbar-brand, a {
+    animation: fadeIn linear 500ms;
+}
+
+.navbar-nav {
+    animation: fadeIn linear 500ms;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -76,7 +83,7 @@
 
 #projects-section{
     margin-bottom: 100px;
-    animation: fadeInProjects linear 1000ms;
+    animation: fadeInProjects linear 1400ms;
 }
 
 .project-title{
@@ -100,14 +107,23 @@
     90% {color: #f2a2e8;}
 }
 
+@keyframes fadeIn{
+    0% { opacity: 0; }
+    50% { opacity: .5; }
+    75% { opacity: .75; }
+    100% { opacity: 1; }
+}
+
 @keyframes fadeInLanding{
     0% { opacity: 0; transform: translateY(-50%); }
-    75% { opacity: .5; }
-    100% {opacity: 1; transform: translateY(0%); }
+    50% { opacity: .5; }
+    75% { opacity: .7; }
+    100% { opacity: 1; transform: translateY(0%); }
 }
 
 @keyframes fadeInProjects{
     0% { opacity: 0;}
-    75% { opacity: .5; }
-    100% {opacity: 1; }
+    50% { opacity: 0;}
+    75% { opacity: 0; transform: translateX(-1%);}
+    100% {opacity: 1;  transform: translateX(0%); }
 }
