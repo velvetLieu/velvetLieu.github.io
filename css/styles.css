@@ -1,7 +1,41 @@
+/* Body */
+body {
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+
+    margin: 0;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    transition: 500ms;
+}
+
+
+
+/* Dark Mode Styling */
+.dark {
+    color: #fff;
+    background-color: #232323;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.toggle-icon {
+    font-size: 20px;
+    color: #faf884;
+    background-color: transparent;
+    border-color: transparent;
+}
+
 /* Nav Bar */
 .navbar {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .navbar .nav-link{
@@ -76,6 +110,7 @@
     text-decoration: none;
     transition: .2s ease-out;
     -webkit-transition: .2s ease-out;
+    transition: 500ms;
 }
 
 
@@ -94,6 +129,12 @@
 .badge {
     font-size: 15px;
 }
+
+.card-body {
+    transition: 500ms;
+}
+
+
 
 /*CSS animations*/
 
