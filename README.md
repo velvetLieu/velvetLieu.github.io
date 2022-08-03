@@ -7,6 +7,7 @@ http://www.jonathanlieu.com/
 ## Built Using 🛠️
 * HTML
 * CSS
+* Javascript
 * Bootstrap 5
 * GitHub Pages for hosting
 * Google Domains for domain
