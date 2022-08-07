@@ -128,6 +128,11 @@ body {
 
 .badge {
     font-size: 15px;
+    color: black;
+    outline-color: #000;
+    outline-style: solid;
+    outline-width: 1.5px;
+    transition: 800ms;
 }
 
 .card-body {
