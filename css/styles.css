@@ -88,7 +88,7 @@ body {
 
 .landing-block{
     max-width: 550px;
-    animation: fadeInLanding linear 1000ms;
+    animation: fadeIn linear 1000ms;
 }
 
 .landing-block h1{
@@ -160,16 +160,9 @@ body {
     100% { opacity: 1; }
 }
 
-@keyframes fadeInLanding{
-    0% { opacity: 0; transform: translateY(-50%); }
-    50% { opacity: .5; }
-    75% { opacity: .7; }
-    100% { opacity: 1; transform: translateY(0%); }
-}
-
 @keyframes fadeInProjects{
-    0% { opacity: 0;}
-    50% { opacity: 0;}
-    75% { opacity: 0; transform: translateX(-1%);}
-    100% {opacity: 1;  transform: translateX(0%); }
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
 }
